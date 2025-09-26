@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Stylish Cards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0a2d27, #26b29d);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Website Logo */
+          .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+/* End */
+
+h1 {
+  text-align: center;
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Card */
+.badge{
+  background-color: #1d8676;
+  padding: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 60px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-titel{
+  color: white;
+}
+
+.card-subtitel{
+  color: black;
+}
+
+.price{
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #26b29d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: #13594e;
+}
+/* End */
+  </style>
+</head>
+<body>
+  <!-- Website Logo -->
+    <a href="Index.html" class="logo">
+        <img src="Website Logo.png" alt="logo"> Pakraaz.pk
+    </a>
+    <!-- End -->
+     
+  <div class="container">
+    <h1>Bags Products</h1>
+    <div class="card-grid">
+      <!-- Product Card 1-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://img.drz.lazcdn.com/static/pk/p/9833e9a05f8482fd8bb16a273cb60434.jpg_720x720q80.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Best Quality Bag</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$15.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 2-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://m.media-amazon.com/images/I/71w-E3YUfGL._AC_UY1100_.jpg" alt="Image Panding...">
+        <h2 class="card-titel">School Bag For B...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$21.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 3-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://5.imimg.com/data5/PT/OU/FZ/SELLER-7009349/designer-school-bag-500x500.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Girl School Bag</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$25.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 4-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://travelagepk.com/cdn/shop/files/fashion-unbreakable-luggage-polypropylene-pp-wholesale-price-travelage-bags-and-luggage-store-2.png?v=1721572645&width=720" alt="Image Panding...">
+        <h2 class="card-titel">Cabin Size Suitca...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$30.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 5-->
+      <div class="product-card">
+        <img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/97/3600623/1.jpg?6292" alt="Image Panding...">
+        <h2 class="card-titel">Fashion Childer...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$35.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 6-->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/81idlqFqcUL._AC_SL1500_.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Laptop Bag</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$34.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 7-->
+      <div class="product-card">
+        <img src="https://harisluggage.pk/cdn/shop/files/thinkbookbackpack.jpg?v=1722791360&width=2048" alt="Image Panding...">
+        <h2 class="card-titel">Lenovo ThinkBo...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$20.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 8-->
+      <div class="product-card">
+        <img src="https://static-01.daraz.pk/p/59c747ee45a74479b2e83be6b0c94923.jpg" alt="Image Panding...">
+        <h2 class="card-titel">HP Laptop Ba...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$21.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 9-->
+      <div class="product-card">
+        <img src="https://starcity.pk/wp-content/uploads/2022/03/Dell-Simplicity-15inch-laptop-bag-in-pakistan-1.jpg" alt="Image Panding...">
+        <h2 class="card-titel">DELL Laptop B...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$21.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 10-->
+      <div class="product-card">
+        <img src="https://cf.shopee.ph/file/ph-11134207-7r990-lmsli3zbi8b314" alt="Image Panding...">
+        <h2 class="card-titel">Accer Laptop B...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$21.55</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      
+    </div>
+  </div>
+</body>
+</html>

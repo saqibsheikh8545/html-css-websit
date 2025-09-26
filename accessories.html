@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Stylish Cards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0a2d27, #26b29d);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Website Logo */
+          .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+/* End */
+
+h1 {
+  text-align: center;
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 360px;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Card */
+.badge{
+  background-color: #1d8676;
+  padding: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 60px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-titel{
+  color: white;
+}
+
+.card-subtitel{
+  color: black;
+}
+
+.price{
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #26b29d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: #13594e;
+}
+/* End */
+  </style>
+</head>
+<body>
+  <!-- Website Logo -->
+    <a href="Index.html" class="logo">
+        <img src="Website Logo.png" alt="logo"> Pakraaz.pk
+    </a>
+    <!-- End -->
+     
+  <div class="container">
+    <h1>Accessories Products</h1>
+    <div class="card-grid">
+
+      <!-- Product Card 1-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://ounass-sa.atgcdn.ae/contentful/b3xlytuyfm3e/5eBTEA5YilyV4rXYBf4CfL/6cf7784f92b76f82bd5ed01647b8ef58/Women_Accessories_DSK_PLP_Banner_.jpg?q=70" alt="Accessories...">
+        <h2 class="card-titel">Accessories For W...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$36.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 2-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://brownliving.in/cdn/shop/articles/must-have-mens-fashion-accessories-for-every-season-935732.jpg?v=1723062565" alt="Accessories...">
+        <h2 class="card-titel">Accessories For M...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$35.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 3-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://www.creategiftlove.co.uk/cdn/shop/collections/man-bear-men-s-accessories-create-gift-love-43841155039528_2ec6a77f-42de-4f84-9301-0ada30c65a3b.jpg?v=1705924696" alt="Accessories...">
+        <h2 class="card-titel">Luxury Leather M...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$32.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 4-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://nextluxury.com/wp-content/uploads/Top-15-Fashion-Accessories-For-Men-1.jpg" alt="Accessories...">
+        <h2 class="card-titel">Modern Men Acce...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$36.66</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 5-->
+      <div class="product-card">
+        <img src="https://fashionisers.com/wp-content/uploads/2021/11/mens-accessories-to-elevate-your-style-1160x720.jpeg" alt="Accessories...">
+        <h2 class="card-titel">Men Accessori...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$34.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 6-->
+      <div class="product-card">
+        <img src="https://shop.thegentlemansjournal.com/cdn/shop/articles/12d460fb848ce5ff0ad1725e7a9a27131c10bf38-3000x2000_e8b67a9b-2e3f-4a8a-a0e6-f291b5b432de_1024x1024.jpg?v=1662455947" alt="Accessories...">
+        <h2 class="card-titel">Modern Men Acce...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$30.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      
+    </div>
+  </div>
+</body>
+</html>

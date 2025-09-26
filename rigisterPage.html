@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register Page</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0a2d27, #26b29d);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Website Logo */
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+/* End */
+
+/* Glass effect container */
+.register-container {
+  backdrop-filter: blur(10px);
+  background: #1d8676;
+  padding: 45px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 380px;
+}
+
+/* Form box */
+.register-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-box h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 25px;
+}
+
+/* Input group */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-group label {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  color: white;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -10px;
+  font-size: 12px;
+  color: #30dfc4;
+}
+
+/* Button */
+button {
+  padding: 12px;
+  background: #26b29d;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #00c9a7;
+}
+
+/* Login link text */
+.login-text {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.login-text a {
+  color: #00ffd5;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.login-text a:hover{
+    color: #0a2d27;
+}
+  </style>
+</head>
+<body>
+    <!-- Website Logo -->
+    <a href="Index.html" class="logo">
+        <img src="Website Logo.png" alt="logo"> Pakraaz.pk
+    </a>
+    <!-- End -->
+  <div class="register-container">
+    <form class="register-box">
+      <h2>Create Account</h2>
+
+      <div class="input-group">
+        <input type="text" required />
+        <label>Full Name</label>
+      </div>
+
+      <div class="input-group">
+        <input type="email" required />
+        <label>Email</label>
+      </div>
+
+      <div class="input-group">
+        <input type="text" required />
+        <label>Username</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" required />
+        <label>Password</label>
+      </div>
+
+      <div class="input-group">
+        <input type="password" required />
+        <label>Confirm Password</label>
+      </div>
+
+      <button type="submit">Register</button>
+
+      <p class="login-text">Already have an account? <a href="LoginPage.html">Login</a></p>
+    </form>
+  </div>
+</body>
+</html>

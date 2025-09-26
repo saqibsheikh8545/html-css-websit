@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clothing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0a2d27, #26b29d);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Website Logo */
+          .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+/* End */
+
+h1 {
+  text-align: center;
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Card */
+.badge{
+  background-color: #1d8676;
+  padding: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 60px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-titel{
+  color: white;
+}
+
+.card-subtitel{
+  color: black;
+}
+
+.price{
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #26b29d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: #13594e;
+}
+/* End */
+  </style>
+</head>
+<body>
+  <!-- Website Logo -->
+    <a href="Index.html" class="logo">
+        <img src="Website Logo.png" alt="logo"> Pakraaz.pk
+    </a>
+    <!-- End -->
+     
+  <div class="container">
+    <h1>Clothings Products</h1>
+    <div class="card-grid">
+      <!-- Product Card 1-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://ssgarmentss.com/wp-content/uploads/2023/10/focus-4.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Focus Faces T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$30.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 2-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://ssgarmentss.com/wp-content/uploads/2023/10/beauti-1.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Women T-Shirt B...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$29.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 3-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://www.inkfactory.pk/wp-content/uploads/2019/08/T-Shirt-Mockup-007.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Cotton T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$69.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 4-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://armapparels.com.pk/cdn/shop/files/adult-tshirt-tail-green.png?v=1752178403" alt="Image Panding...">
+        <h2 class="card-titel">Eagle T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$69.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 5-->
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/41OfpYbipFS._AC_QL92_SH45_UL240_SR240,220_.jpg" alt="Image Panding...">
+        <h2 class="card-titel">Men & Women T...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$48.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 6-->
+      <div class="product-card">
+        <img src="https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/D33001s5.jpg?im=Resize,width=750" alt="Image Panding...">
+        <h2 class="card-titel">White Sport T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$20.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 7-->
+      <div class="product-card">
+        <img src="https://flagnation.net/cdn/shop/files/Pakistan-Flag-T-Shirt_a4c04a46.jpg?v=1746160938" alt="Image Panding...">
+        <h2 class="card-titel">T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$48.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 8-->
+      <div class="product-card">
+        <img src="https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377https://nstore.com.pk/cdn/shop/files/1_4767bcb9-c9ab-4846-9502-42f67b7032bd.jpg?v=1687954377" alt="Image Panding...">
+        <h2 class="card-titel">Basic T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$47.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 9-->
+      <div class="product-card">
+        <img src="https://image.hm.com/assets/hm/62/8f/628f71a0e54aa99c16e2bd20ec536cf12cf00363.jpg?imwidth=768" alt="Image Panding...">
+        <h2 class="card-titel">5 Slim Fit T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$100.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 10-->
+      <div class="product-card">
+        <img src="https://chriscross.in/cdn/shop/files/ChrisCrossRoyalblueCottontshirtmen.jpg?v=1740994595" alt="Image Panding...">
+        <h2 class="card-titel">Plan T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$30.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 11-->
+      <div class="product-card">
+        <img src="https://i.pinimg.com/236x/a1/7e/23/a17e23192907c8bfed8d6cb6923107e0.jpg" alt="Image Panding...">
+        <h2 class="card-titel">T-Shirt</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$37.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      
+    </div>
+  </div>
+</body>
+</html>
