@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern Stylish Cards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0a2d27, #26b29d);
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Website Logo */
+          .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            position: absolute;
+            margin: 20px;
+            top: 0;
+            left: 0;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+/* End */
+
+h1 {
+  text-align: center;
+  font-size: 2.9rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.card-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 350px;
+  padding: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Card */
+.badge{
+  background-color: #1d8676;
+  padding: 8px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 60px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+img{
+  height: 300px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.card-titel{
+  color: white;
+}
+
+.card-subtitel{
+  color: black;
+}
+
+.price{
+color: #ffffff;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #26b29d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover{
+  background-color: #13594e;
+}
+/* End */
+  </style>
+</head>
+<body>
+  <!-- Website Logo -->
+    <a href="Index.html" class="logo">
+        <img src="Website Logo.png" alt="logo"> Pakraaz.pk
+    </a>
+    <!-- End -->
+     
+  <div class="container">
+    <h1>Footwears Products</h1>
+    <div class="card-grid">
+      <!-- Product Card 1-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://image.made-in-china.com/155f0j00OWtcoiIhgDkG/Soft-Soled-Fashion-Sports-Shoes-for-Boys-Kids-Branded-Footwears-Children-Sneakers.webp" alt="Footwear...">
+        <h2 class="card-titel">Soft-Soled Fashi...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$10.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 2-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://www.footplx.com/wp-content/uploads/2024/01/IMG_20240119_200016.jpg" alt="Footwear...">
+        <h2 class="card-titel">Sports Sandel</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$16.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 3-->
+      <div class="product-card">
+        <span class="badge">New</span>
+        <img src="https://www.skechers.com/dw/image/v2/BDCN_PRD/on/demandware.static/-/Library-Sites-SkechersSharedLibrary/default/dw42782b4d/images/2024-Images/Q2/SKX62403%20Shop%20by%20Style%20Grid%20Environmental%20Shots%20Spring-Summer%202024_Boys_750x664-Athletic%20Sneakers%20403818BLLM.jpg?sw=356" alt="Footwear...">
+        <h2 class="card-titel">Boy`s Shoes</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$18.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 4-->
+      <div class="product-card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2024/5/421073386/DE/SP/OP/180923124/footwears.png" alt="Footwear...">
+        <h2 class="card-titel">Best Shoes</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$10.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 5-->
+      <div class="product-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/King_Street_Sneak.JPG/250px-King_Street_Sneak.JPG" alt="Footwear...">
+        <h2 class="card-titel">Footwear - Wikipedia</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$20.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 6-->
+      <div class="product-card">
+        <img src="https://www.balujas.net/image/cache/catalog/Dilip/25.6.2023/1033%20Black-2-740x740.jpeg" alt="Footwear...">
+        <h2 class="card-titel">Balujas Shoes</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$30.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 7-->
+      <div class="product-card">
+        <img src="https://www.jiomart.com/images/product/original/rv2u0ahpzp/ak-footwears-men-s-sport-casual-running-stylish-shoes-for-men-size-uk-6-product-images-rv2u0ahpzp-0-202404181513.jpg?im=Resize=(500,630)" alt="Footwear...">
+        <h2 class="card-titel">AK Men`s Sports...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$29.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 8-->
+      <div class="product-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9h1KiVLXT1FMsPJ8F4m0jmTHrykSP03_z0Q&s" alt="Footwear...">
+        <h2 class="card-titel">Ladies Footwear</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$18.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 9-->
+      <div class="product-card">
+        <img src="https://shohrey.com/cdn/shop/files/Untitleddesign_18_d65b4c7d-086e-4c31-a300-5111e2abc6fa.png?v=1711664843" alt="Footwear...">
+        <h2 class="card-titel">Women Footwear</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$28.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 10-->
+      <div class="product-card">
+        <img src="https://images.meesho.com/images/products/382821368/uxymb_512.webp?width=512" alt="Footwear...">
+        <h2 class="card-titel">Brand Mascle...</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$20.00</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 11-->
+      <div class="product-card">
+        <img src="https://cdn.media.amplience.net/i/scvl/155522_337961_1?fmt=auto&w=640" alt="Footwear...">
+        <h2 class="card-titel">Girl`s Sneakers</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$35.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      <!-- Product Card 12-->
+      <div class="product-card">
+        <img src="https://img.joomcdn.net/82cae77e3d86c6933dbff3fb7fe45cdf17fde8d2_original.jpeg" alt="Footwear...">
+        <h2 class="card-titel">Boy`s Shoes</h2>
+        <p class="card-subtitel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolorem provident consectetur nulla suscipit tempora quod unde modi voluptatibus nisi.</p>
+        <p class="price">$32.99</p>
+        <button>ShopNow</button>
+      </div>
+      <!-- End -->
+      
+    </div>
+  </div>
+</body>
+</html>
